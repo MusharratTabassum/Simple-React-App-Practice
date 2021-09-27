@@ -12,7 +12,7 @@ const Cart = (props) => {
     return (
         <div>
             <h3>Order Summary</h3>
-            <h5>Items Ordered: {props.cart.length}</h5>
+            <h5>People Added: {props.cart.length}</h5>
             <p>Total: ${total.toFixed(2)}</p>
             <h5>Item Name : {Item}</h5>
 
