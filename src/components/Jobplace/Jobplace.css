@@ -1,14 +1,12 @@
 .recrutement-container{
-   
         display: grid;
         grid-template-columns: 3fr 1fr;
-  
-} 
+ } 
 .order{
     background-color: rgba(139, 248, 248, 0.473);
 }
 .developer-place{
     display: grid;
-    grid-template-rows: repeat(3fr,1fr);   
+    grid-template-columns: repeat(3,1fr);   
     background-color: rgba(139, 248, 248, 0.473);
 }
